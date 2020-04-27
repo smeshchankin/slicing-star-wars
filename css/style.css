@@ -16,3 +16,9 @@ body {
 
 .logo {
 }
+
+.nav__link {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #fff;
+}
