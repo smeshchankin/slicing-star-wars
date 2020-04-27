@@ -17,3 +17,16 @@ body {
     margin: auto;
     margin-top: 90px;
 }
+
+.header {
+    display: flex;
+    align-items: center;
+}
+.header__logo {
+    margin-right: 70px;
+}
+.nav__link {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 15px;
+}
