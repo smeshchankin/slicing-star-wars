@@ -1,1 +1,23 @@
+@import url(https://fonts.googleapis.com/css2?family=Poller+One);
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #070506;
+    color: #fff;
+}
+
+.container {
+    margin-top: 90px;
+    width: 1060px;
+    text-align: center;
+}
+
+.logo {
+    font-family: 'Poller One', cursive;
+    text-transform: uppercase;
+    font-size: 40px;
+}
