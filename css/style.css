@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #070506;
+    background: #070506 url("/img/main-bg.jpg");
     color: #fff;
     font-family: 'Roboto', sans-serif;
 }
