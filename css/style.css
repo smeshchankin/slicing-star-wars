@@ -67,12 +67,15 @@ body {
     color: #AFAFAF;
 }
 .hero__release {
+    margin-top: 25px;
     display: block;
     font-size: 18px;
     line-height: 150%;
     color: #B02000;
 }
 .hero__date {
+    margin-top: 5px;
+    margin-bottom: 45px;
     display: block;
     font-size: 24px;
     line-height: 150%;
