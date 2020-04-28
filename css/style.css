@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700');
 
-* {
+@font-face {
+    font-family: 'ProximaNova-Black';
+        src: local('ProximaNova-Black'), 
+            url('https://nomail.com.ua/files/eot/aa46d234cf405126cdd1c36600e4b978.eot?#iefix')
+                format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/aa46d234cf405126cdd1c36600e4b978.woff')
+                format('woff'),
+            url('https://nomail.com.ua/files/woff2/aa46d234cf405126cdd1c36600e4b978.woff2')
+                format('woff2');
+    }
+
+    * {
     margin: 0;
     padding: 0;
 }
@@ -36,12 +47,14 @@ body {
 }
 .hero__subtitle {
     display: block;
+    font-family: 'ProximaNova-Black', sans-serif;
     font-weight: 900;
     font-size: 40px;
     line-height: 100%;
 }
 .hero__title {
     margin-top: 5px;
+    font-family: 'ProximaNova-Black', sans-serif;
     font-weight: 900;
     font-size: 64px;
     line-height: 78px
