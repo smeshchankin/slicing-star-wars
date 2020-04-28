@@ -11,7 +11,7 @@
                 format('woff2');
     }
 
-    * {
+* {
     margin: 0;
     padding: 0;
 }
@@ -79,4 +79,38 @@ body {
     display: block;
     font-size: 24px;
     line-height: 150%;
+}
+.hero__button-play {
+    position: relative;
+    padding: 25px 35px;
+    padding-right: 80px;
+    border: none;
+    border-radius: 300px;
+
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #fff;
+    background: linear-gradient(90deg, #FB641A 0%, #FC3309 100%);
+}
+.hero__button-play::before {
+    content: '';
+    position: absolute;
+    right: -8px;
+    top: -8px;
+    width: 81px;
+    height: 81px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+}
+.hero__button-play::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: #fff url('/img/play.svg') center no-repeat;
 }
