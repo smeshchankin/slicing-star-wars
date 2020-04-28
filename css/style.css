@@ -59,3 +59,10 @@ body {
     font-size: 64px;
     line-height: 78px
 }
+.hero__description {
+    margin-top: 25px;
+    width: 572px;
+    font-size: 18px;
+    line-height: 150%;
+    color: #AFAFAF;
+}
