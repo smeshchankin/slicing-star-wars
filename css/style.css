@@ -30,3 +30,19 @@ body {
     color: #fff;
     margin-right: 15px;
 }
+
+.hero {
+    margin-top: 80px;
+}
+.hero__subtitle {
+    display: block;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 100%;
+}
+.hero__title {
+    margin-top: 5px;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 78px
+}
