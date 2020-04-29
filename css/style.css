@@ -122,6 +122,8 @@ body {
     flex-wrap: wrap;
 }
 .slider__item {
+    position: relative;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -148,6 +150,9 @@ body {
     font-size: 18px;
     line-height: 150%;
 }
-.episode-4 {
-    background: url('../img/episode-4.jpg') center;
+.slider__image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
 }
