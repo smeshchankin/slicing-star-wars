@@ -145,14 +145,11 @@ body {
     width: 100%;
     height: 100%;
     z-index: -1;
-    background: linear-gradient(0deg,
-        rgba(80, 80, 80, 0.86),
-        rgba(80, 80, 80, 0.86));
+    background: rgba(80, 80, 80, 0.86);
+    transition: all 0.2s;
 }
 .slider__item:hover::before {
-    background: linear-gradient(0deg,
-        rgba(64, 101, 255, 0.86),
-        rgba(64, 101, 255, 0.86));
+    background: rgba(64, 101, 255, 0.86);
 }
 .slider__title {
     font-weight: 900;
