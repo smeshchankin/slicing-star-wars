@@ -35,11 +35,11 @@
             </div>
             <div class="episodes">
                 <h2 class="episodes__title">Previous episodes</h2>
-                <div class="slider">
-                    <div class="slider__item">
-                        <img src="img/episode-4.jpg" alt="Episode 4" class="slider__image" />
-                        <div class="slider__year">1977</div>
-                        <h3 class="slider__title">Episode IV:<br />A New Hope</h3>
+                <div id="episodes" class="slider">
+                    <div class="slider__item episode">
+                        <img src="img/episode-00.jpg" alt="Episode {{id}}" class="slider__image" />
+                        <div class="slider__year">{{year}}</div>
+                        <h3 class="slider__title">Episode {{episode}}:<br />{{name}}</h3>
                         <div class="slider__rating">
                             <span class="slider__rating-label">Rating</span>
                         </div>
@@ -48,5 +48,7 @@
             </div>
         </main>
     </div>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
