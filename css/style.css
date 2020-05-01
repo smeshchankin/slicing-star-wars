@@ -76,6 +76,7 @@ body {
     line-height: 150%;
 }
 .hero__button-play {
+    text-decoration: none;
     position: relative;
     padding: 25px 35px;
     padding-right: 80px;
