@@ -165,3 +165,12 @@ body {
     top: 0;
     z-index: -2;
 }
+.star {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url('../img/star.svg') no-repeat center;
+}
+.star-o {
+    background: url('../img/star-o.svg') no-repeat center;
+}
