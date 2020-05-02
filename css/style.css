@@ -165,8 +165,12 @@ body {
     top: 0;
     z-index: -2;
 }
+.slider__rating-stars {
+    margin-right: 12px;
+}
 .star {
     display: inline-block;
+    margin: 0 1px;
     width: 12px;
     height: 12px;
     background: url('../img/star.svg') no-repeat center;
