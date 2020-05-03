@@ -26,17 +26,19 @@
 
     $(document).ready(function() {
         $('.owl-carousel').owlCarousel({
-            loop: true,
             margin: 10,
             nav: true,
             responsive: {
                 0: {
                     items: 1
                 },
-                600: {
+                700: {
+                    items: 2
+                },
+                900: {
                     items: 3
                 },
-                1000: {
+                1200: {
                     items: 4
                 }
             }
