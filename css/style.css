@@ -183,15 +183,13 @@ body {
     width: 32px;
     height: 32px;
     border: none;
+    background: transparent url('../img/arrow.svg') no-repeat center;
     cursor: pointer;
     outline: none;
 }
-.slider__nav--left {
-    margin-right: 16px;
-    background: transparent url('../img/arrow-left.svg') no-repeat center;
-}
 .slider__nav--right {
-    background: transparent url('../img/arrow-right.svg') no-repeat center;
+    margin-left: 16px;
+    transform: rotate(180deg);
 }
 .slider__nav span {
     display: none;
