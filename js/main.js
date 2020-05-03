@@ -28,6 +28,7 @@
         $('.owl-carousel').owlCarousel({
             margin: 10,
             nav: true,
+            navClass: ['slider__nav slider__nav--left', 'slider__nav slider__nav--right'],
             responsive: {
                 0: {
                     items: 1
