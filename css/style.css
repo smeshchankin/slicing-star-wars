@@ -195,3 +195,16 @@ body {
 .slider__nav span {
     display: none;
 }
+
+@media (max-width: 800px) {
+    .hero__subtitle {
+        font-size: 24px;
+    }
+    .hero__title {
+        font-size: 36px;
+        line-height: 120%;
+    }
+    .hero__description {
+        font-size: 16px;
+    }
+}
