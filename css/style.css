@@ -188,8 +188,9 @@ body {
     outline: none;
 }
 .slider__nav--right {
+    margin-top: 5px;
     margin-left: 16px;
-    transform: rotate(180deg);
+    transform: rotate(180deg) translateY(-1px);
 }
 .slider__nav span {
     display: none;
