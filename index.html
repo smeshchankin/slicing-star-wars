@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/style.css" />
 
     <title>Star Wars</title>
@@ -39,7 +40,7 @@
             </div>
             <div class="episodes">
                 <h2 class="episodes__title">Previous episodes</h2>
-                <div id="episodes" class="slider">
+                <div id="episodes" class="owl-carousel owl-theme slider">
                     <div class="slider__item episode">
                         <img src="img/episode-00.jpg" alt="Episode {{id}}" class="slider__image" />
                         <div class="slider__year">{{year}}</div>
@@ -54,8 +55,9 @@
         </main>
     </div>
 
-    <script src="js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
