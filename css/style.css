@@ -11,8 +11,8 @@
 }
 
 body {
-    background: #070506 url("../img/main-bg.jpg") top right 90% no-repeat;
-    background-size: cover;
+    background: #010101 url("../img/main-bg.jpg") top right -170% no-repeat;
+    background-size: contain;
     background-attachment: fixed;
     color: #fff;
     font-family: 'Roboto', sans-serif;
