@@ -57,7 +57,7 @@ body {
 }
 .hero__description {
     margin-top: 25px;
-    width: 572px;
+    max-width: 572px;
     font-size: 18px;
     line-height: 150%;
     color: #AFAFAF;
@@ -206,5 +206,19 @@ body {
     }
     .hero__description {
         font-size: 16px;
+    }
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .header__logo {
+        margin-bottom: 30px;
+    }
+    .nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav__link {
+        margin-bottom: 10px;
     }
 }
