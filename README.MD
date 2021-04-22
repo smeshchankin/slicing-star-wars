@@ -1,5 +1,5 @@
 # Slicing Star Wars [2019]
-[Open GtHub Pages](http://smeshchankin.github.io/slicing-ghostbusters)
+[Open GitHub Pages](http://smeshchankin.github.io/slicing-star-wars)
 
 Slicing Star Wars Movie: The Rise of Skywalker [2019]
 
